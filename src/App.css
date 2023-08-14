@@ -1,3 +1,12 @@
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin:0px;
+}
+
+body{
+  background-color: aquamarine;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +44,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+  padding: 10px;
+  background-color:aquamarine;
+}
+.navbar_ele {
+  display: inline-block;
+  padding: 10px;
+}
+
+.navbar a{
+  text-decoration: none;
+  color: rgb(63, 120, 101);
+  font-weight: bolder;
+  transition: 500ms;
+}
+
+.navbar a:hover{
+  transition: 500ms;
+  font-size:19px;
+  text-decoration: none;
+}
+
+.profile h1{
+  font-weight: 500;
+  color: rgb(63, 120, 101);
+}
+
+input{
+  margin:20px;
+  outline: none;
+  border: 0px;
+  background-color: aquamarine;
+  transition: 500ms;
+}
+
+input:focus{
+  border-bottom: 1px solid white;
+  transition: 500ms;
+}
+
+button, .submit_btn{
+  background-color: rgb(63, 120, 101);
+  color:aquamarine;
+  border-radius: 25px;
+  border: 0px;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 10px;
+  transition: 500ms;
+
+}
+
+button, .submit_btn:hover{
+  margin-top: 5px;
+  transition: 500ms;
+  font-size: 15px;
+}
+
+h1, p{
+  color:rgb(63, 120, 101);
+}
+
+form{
+  margin: 25px;
+}
+
+label {
+  font-size:15px;
+  color: rgb(63, 120, 101);
+  font-weight: 600;
+  display:block;
+  margin-top: 10px;
+}
+
+p{
+  color: red;
 }
